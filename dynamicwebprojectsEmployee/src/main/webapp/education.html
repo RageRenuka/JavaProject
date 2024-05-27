@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.border{
+		border: 1px solid black;
+		width: 40%;
+	
+		padding: 50px;
+		margin-left: 70px;
+		font-weight: 700;
+		background-color:darkslateblue;
+		color: white;
+		
+	}
+	
+	.submitbuttion{
+		padding: 10px 30px 10px 30px;
+		margin-top: 10px;
+		font-weight: 700;
+		font-size: 18px;
+		margin-left: 50px;
+	}
+	.margin{
+		margin-left: 50px;
+	}
+	.text{
+		
+		margin-left: 30px;
+	}
+	
+	
+</style>
+</head>
+<body>
+
+	<form action="personalform" method="get" class="border">
+			<h1 class="text"><u>Employee Personal Registraion Form</u></h1>
+		
+		<table class="margin"">
+	
+				<tr>
+				<td>EmployeeId</td>
+				<td><input type="text" name="empId"></td>
+				</tr>
+				
+				<tr>
+			<td>EmployeeFirstName</td>
+			<td><input type="text" name="empfName"></td>
+		    </tr>
+		
+		
+			
+			<tr>
+			<td>EmployeeLastName</td>
+			<td><input type="text" name="emplName"></td>
+		    </tr>
+			
+			<tr>
+			  <td>EmployeeContact</td>
+			  <td><input type="text" name="empContact"><td>
+		       </tr>
+			    <tr>
+				<td>EmployeeMailId</td>
+				<td><input type="text" name="empMailId"><td>
+		        </tr>
+		    <tr>
+			<td>EmployeeCity</td>
+			<td><input type="text" name="empCity"></td>
+			</tr>
+		</table>
+		<input class="submitbuttion" type="submit" value="Register"/>
+		<input class="submitbuttion" type="reset" value="Reset"/>
+		
+	
+	
+</form>
+</body>
+</html>

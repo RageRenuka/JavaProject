@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+input{
+  width: 30%;
+  padding: 8px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.form{
+  text-align: left;
+}
+.font{
+  font-weight: 500;
+  padding: 20px;
+}
+.marginleft{
+	margin-left: 50px;
+	background-color:cadetblue;
+}
+.text-aline{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text-aline1{
+	text-align: center;
+	margin-bottom: 10px;
+	color:white;
+    background-color: navy;
+	
+}
+
+.font{
+	margin-left: 40px;
+}
+.button{
+	padding: 10px 30px 10px 30px;
+	border: 1px solid black;
+	background-color: navy;
+	color: white;
+	border-radius: 10px;
+}
+</style>
+</head>
+<body>
+
+   <fieldset>
+	    <h1 class="text-aline1">This is First Dynamic  Web Project</h1>
+	 	
+	   <form class="marginleft">
+		     <section class="marginleft">
+        <h1 class="text-aline"><u>Registraion-Form</u></h1>
+        
+          <div className='form'>
+            <label className='font'>Name</label>
+            <input type='name' placeholder='Enter the name' />
+          </div>
+          <div className='form '>
+            <label className='font'>Email</label>
+            <input type='Email' placeholder='Enter the Email'/>
+          </div>
+          <div className='form '>
+            <lable className='font'>Contact</lable>
+            <input type='contact' placeholder='Enter the MobileNumber'/>
+          </div><br>
+          <div className='form '>
+            <lable className='font'>City</lable>
+             <select className='widath-100'/>
+               <option>Select City</option>
+              <option>Anantapur</option>
+              <option>Kadapa</option>
+              <option>Chittor</option>
+              <option>Thirupathi</option>
+              <option>Karnool</option>
+              <option>Madanapalli</option>
+                </select>
+          </div><br>
+          <div className='form '>
+            <label className='font'>Cources</label>
+            <select className='widath-100'/>
+              <option>Select Cources</option>
+              <option>Html/Css</option>
+              <option>Boostarp</option>
+              <option>ReactJs</option>
+              <option>Java</option>
+              <option>MySql</option>
+
+            </select>
+          </div><br>
+          <div className='form '>
+            <label className='font'>Gender</label>
+            <select className='widath-100'/>
+              <option>Please Seclect the Gender*</option>
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div><br>
+          <div  className='form '>
+            <label className='font'>UploadResume</label>
+            <input  type='file' placeholder='Please Uploade the file' />
+          </div>
+          <div className='form '>
+            <label className='font'>Date&Time</label>
+            <input type='datetime-local' />
+          </div>
+          <div className='form '>
+            <lable className='font'>Cource Fee</lable>
+            <input type='text' placeholder='Place Enter the Cource fee'/>
+          </div><br>
+         
+            <button class="button">Submit</button>
+        
+
+        </div><br><br>
+        </section>
+           </form >
+        </fieldset>
+        
+   
+
+</body>
+</html>

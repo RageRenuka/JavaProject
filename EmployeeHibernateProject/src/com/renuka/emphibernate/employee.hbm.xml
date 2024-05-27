@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.renuka.emphibernate.Employee" table="employee">
+	
+		<id name="empid" ></id>
+		<property name="empName"></property>
+		<property name="empsalarey"></property>
+			<property name="empEmail"></property>
+				<property name="empCity"></property>
+					<property name="empContact"></property>
+					<property name="empPincode"></property>
+		
+	
+		
+	</class>
+</hibernate-mapping>

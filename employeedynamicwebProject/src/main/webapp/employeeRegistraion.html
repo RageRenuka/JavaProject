@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	.border{
+		border: 1px solid black;
+		width: 30%;
+	
+		padding: 20px;
+		margin-left: 10px;
+		font-weight: 700;
+		background-color: navy;
+		color: white;
+		
+	}
+	
+	.submitbuttion{
+		padding: 10px 30px 10px 30px;
+		margin-top: 10px;
+		font-weight: 700;
+		font-size: 18px;
+	}
+	
+	
+</style>
+</head>
+<body>
+	<form action="empRegister" method="post" class="border">
+		<h1>Employee Register Form</h1>
+		<table>
+				<tr>
+				<td>EmployeeId</td>
+				<td><input type="number" name="empId"></td>
+				</tr>
+				
+			<tr>
+			<td>EmployeeName</td>
+			<td><input type="text" name="EmpName"></td>
+		    </tr>
+			
+			<tr>
+			  <td>EmployeeCity</td>
+			  <td><input type="text" name="empCity"><td>
+		       </tr>
+		       <tr>
+				<td>EmployeeContact</td>
+				<td><input type="number" name="empContact"></td>
+				</tr>
+		       
+			    <tr>
+				<td>EmployeeMailId</td>
+				<td><input type="text" name="empMail"><td>
+		        </tr>
+		    <tr>
+			<td>EmployeeAge</td>
+			<td><input type="number" name="empAge"></td>
+			</tr>
+			 <tr>
+			<td>EmploeeSalarey</td>
+			<td><input type="number" name="empSalarey"></td>
+			</tr>
+		</table>
+		<input class="submitbuttion" type="submit" value="Register"/>
+		<input class="submitbuttion" type="reset" value="Reset"/>
+		
+	</form>
+	
+
+</body>
+</html>

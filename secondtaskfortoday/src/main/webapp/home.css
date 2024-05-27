@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+.tables{
+	text-align: center;
+		border-collapse: collapse;
+		background-color: black;
+		color: white;
+}

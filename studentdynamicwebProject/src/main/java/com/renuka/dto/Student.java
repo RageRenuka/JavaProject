@@ -1,0 +1,50 @@
+package com.renuka.dto;
+
+public class Student {
+	private int stdId;
+	private String stdName;
+	private String stdClass;
+	private double stdpercentage;
+	private String stdSchool;
+	public int getStdId() {
+		return stdId;
+	}
+	public void setStdId(int stdId) {
+		this.stdId = stdId;
+	}
+	public String getStdName() {
+		return stdName;
+	}
+	public void setStdName(String stdName) {
+		this.stdName = stdName;
+	}
+	public String getStdClass() {
+		return stdClass;
+	}
+	public void setStdClass(String stdClass) {
+		this.stdClass = stdClass;
+	}
+	public double getStdpercentage() {
+		return stdpercentage;
+	}
+	public void setStdpercentage(double stdpercentage) {
+		this.stdpercentage = stdpercentage;
+	}
+	public String getStdSchool() {
+		return stdSchool;
+	}
+	public void setStdSchool(String stdSchool) {
+		this.stdSchool = stdSchool;
+	}
+	@Override
+	public String toString() {
+		return "Student [stdId=" + stdId + ", stdName=" + stdName + ", stdClass=" + stdClass + ", stdpercentage="
+				+ stdpercentage + ", stdSchool=" + stdSchool + "]";
+	}
+	
+	
+	
+	
+	
+
+}

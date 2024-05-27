@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>cookieprojects</display-name>
+  <welcome-file-list>
+    <welcome-file>one.html</welcome-file>
+  </welcome-file-list>
+  
+  
+   <servlet>
+   <servlet-name>firstcookies</servlet-name>
+   <servlet-class>com.renuka.cookieprojects.Cookiecrud</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>firstcookies</servlet-name>
+   <url-pattern>/one</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+   <servlet-name>secondcookie</servlet-name>
+   <servlet-class>com.renuka.cookieprojects.CookiesTwo</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>secondcookie</servlet-name>
+   <url-pattern>/two</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+   <servlet-name>thridcookie</servlet-name>
+   <servlet-class>com.renuka.cookieprojects.CookiesThree</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>thridcookie</servlet-name>
+   <url-pattern>/three</url-pattern>
+   </servlet-mapping>
+   
+   
+</web-app>
+</element>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>servletProjects</display-name>
+  <welcome-file-list>
+    <welcome-file>emp.html</welcome-file>
+  </welcome-file-list>
+  
+  
+   <servlet>
+   <servlet-name>firstServlet</servlet-name>
+   <servlet-class>com.renuka.servletprojects.ServletFirst</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+   <url-pattern>/one</url-pattern>
+   </servlet-mapping>
+   
+   
+   <servlet>
+   <servlet-name>secondServlet</servlet-name>
+   <servlet-class>com.renuka.servletprojects.ServletSecond</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>secondServlet</servlet-name>
+   <url-pattern>/two</url-pattern>
+   </servlet-mapping>
+   
+   
+    <servlet>
+   <servlet-name>thridServlet</servlet-name>
+   <servlet-class>com.renuka.servletprojects.ServletThree</servlet-class>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>thridServlet</servlet-name>
+   <url-pattern>/three</url-pattern>
+   </servlet-mapping>
+   
+   
+ 
+</web-app>
